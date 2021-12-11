@@ -1,0 +1,134 @@
+{
+    "editor.fontSize": 16,
+    "go.gopath": "/Users/chunming.dong/go",
+   
+    "go.gocodePackageLookupMode": "go",
+  
+    "editor.minimap.enabled": true,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "none",
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.renderLineHighlight": "all",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    // Workbench
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.sideBar.location": "left",
+
+  
+    "workbench.startupEditor": "none",
+    // Window
+    "window.titleBarStyle": "custom",
+    // 面包屑导航
+    "breadcrumbs.enabled": true,
+    // Markdown
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        "editor.quickSuggestions": {
+            "others": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.acceptSuggestionOnEnter": "on"
+    },
+    // Markdown All in One
+    "markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.toc.levels": "2..3",
+    // Markdown Preview Enhanced
+    "markdown-preview-enhanced.mermaidTheme": "default",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "monokai.css",
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": ["font", "img","table","td", "th", "tr", "hr", "details", "summary", "br"]
+        }
+    },
+
+    //文件注释
+    "fileheader.customMade": {
+        "Descripttion":"",
+        "version":"",
+        "Author":"cm.d",
+        "Date":"Do not edit",
+        "LastEditors":"cm.d",
+        "LastEditTime":"Do not Edit"
+    },
+    //函数注释
+    "fileheader.cursorMode": {
+        "name":"",
+        "descirption":"",
+        "param":"",
+        "return":""
+    },
+
+
+    // Search
+    "search.showLineNumbers": true,
+    // Update
+    "update.enableWindowsBackgroundUpdates": false,
+    // Code Runner
+    "code-runner.runInTerminal": true,
+    // Go
+    "go.inferGopath": false, // 使用 Go Modules 时无需 inferGopath
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.lintOnSave": "workspace",
+    "go.buildOnSave": "off",
+    "go.formatTool": "goimports",
+    "go.testFlags": [
+        "-v"
+    ],
+    // gopls
+    "gopls": {
+        "completeUnimported": true,
+        "usePlaceholders": true,
+        "completionDocumentation": true,
+        "hoverKind": "SynopsisDocumentation" // No/Synopsis/Full, default Synopsis
+    },
+    // 代理
+    "http.proxyStrictSSL": false,
+    // 网易云音乐
+    "NeteaseMusic.CDN.redirect": false,
+    
+    
+    // 1.40.0+，自定义 activeBar 颜色
+    "workbench.colorCustomizations": {
+        "activityBar.activeBorder": "#007AC7",
+        "activityBar.activeBackground": "#294A5B",
+    },
+    "scf.python3.path": "",
+    "scf.python2.path": "",
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 0.1
+    },
+    "go.toolsManagement.autoUpdate": true,
+
+}
